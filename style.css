@@ -1,0 +1,94 @@
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+    
+	display: block;
+    
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+html {
+    
+	background: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    
+}
+
+.clear {
+    
+    clear: both;
+    
+}
+
+body {
+    
+    width: 960px;
+    margin: 0 auto;
+}
+
+header, nav, footer {
+    
+    padding: 15px;
+  	margin: 10px;
+    background-color: #ebebeb;
+    
+}
+
+section {
+    
+    width: 495px;
+    position: relative;
+    
+    
+}
+
+article {
+    
+    color: #ebebeb;
+    background-color: #777;
+    padding: 15px;
+    margin:10px;
+}
+
+aside {
+    
+    position: relative;
+    width: 435px;
+}
+
+.inside {
+    
+    padding: 15px;
+  	margin: 10px;
+    background-color: #ebebeb;
+    color: #777;
+    
+}
+
+.container {
+    
+    display: table;
+  	margin: 0 auto;
+    
+}
+
+.row {
+    
+    display: table-row;
+}
+
+.column {
+    
+    display: table-cell;
+    background-color: #ebebeb;
+}
+
+.spacer {
+    
+    width:10px;
+}
